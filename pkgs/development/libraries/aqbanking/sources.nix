@@ -6,7 +6,7 @@
   libchipcard.version = "5.1.5rc2";
   libchipcard.sha256 = "0ylvqydiy56qy7dbzq1mhhrlgzzb6d9n1qncq0vb5v7p77zgilij";
   libchipcard.releaseId = "229";
-  aqbanking.version = "6.0.1";
-  aqbanking.sha256 = "0jfarabnmhyg868cinzf90wnr3hpglvgds6q22masqxpracf4rkd";
-  aqbanking.releaseId = "238";
+  aqbanking.version = "6.0.2";
+  aqbanking.sha256 = "0n41n3yki1wmax4i9wi485g8zqb43z1adywcixzfq9gbdjhz05hx";
+  aqbanking.releaseId = "243";
 }
