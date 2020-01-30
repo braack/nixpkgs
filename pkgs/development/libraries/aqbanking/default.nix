@@ -24,8 +24,6 @@ in stdenv.mkDerivation rec {
 
   nativeBuildInputs = [ pkgconfig gettext ];
 
-  configureFlags = [ "--with-gwen-dir=${gwenhywfar}" ];
-
   meta = with stdenv.lib; {
     description = "An interface to banking tasks, file formats and country information";
     homepage = https://www.aquamaniac.de/;
