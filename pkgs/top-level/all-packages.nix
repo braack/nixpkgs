@@ -526,7 +526,7 @@ in
   writers = callPackage ../build-support/writers {};
 
   # lib functions depending on pkgs
-  inherit (import ../pkgs-lib { inherit lib pkgs; });
+  inherit (import ../pkgs-lib { inherit lib pkgs; }) formats;
 
   ### TOOLS
 
