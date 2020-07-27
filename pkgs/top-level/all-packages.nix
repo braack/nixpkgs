@@ -22828,6 +22828,8 @@ in
 
   thunderbird-bin = callPackage ../applications/networking/mailreaders/thunderbird-bin { };
 
+  thunderbird-bin-68 = callPackage ../applications/networking/mailreaders/thunderbird-bin/68.nix { };
+
   ticpp = callPackage ../development/libraries/ticpp { };
 
   tig = gitAndTools.tig;
