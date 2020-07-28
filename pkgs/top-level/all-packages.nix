@@ -18315,6 +18315,8 @@ in
 
   edukai = callPackage ../data/fonts/edukai { };
 
+  edusong = callPackage ../data/fonts/edusong { };
+
   elliptic_curves = callPackage ../data/misc/elliptic_curves { };
 
   equilux-theme = callPackage ../data/themes/equilux-theme { };
