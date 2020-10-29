@@ -1,6 +1,6 @@
 { mkDerivation, fetchgit, lib
 , extra-cmake-modules, kdoctools
-, qca-qt5, qjson, qtquickcontrols2, qtscript, qtwebengine
+, qca-qt5, qjson, qtquickcontrols2, qtscript, qtwebengine, wrapQtAppsHook
 , karchive, kcmutils, kconfig, kdnssd, kguiaddons, kinit, kirigami2, knewstuff, knotifyconfig, ktexteditor, kwindowsystem
 , fftw, phonon, plasma-framework, threadweaver
 , curl, ffmpeg_3, gdk-pixbuf, libaio, liblastfm, libmtp, loudmouth, lzo, lz4, mysql57, pcre, snappy, taglib, taglib_extras
@@ -20,7 +20,7 @@ mkDerivation rec {
     sha256 = "12casnq6w5yp2jlvnr466pjpkn0vriry8jzfq2qkjl564y0vhy9x";
   };
 
-  nativeBuildInputs = [ extra-cmake-modules kdoctools ];
+  nativeBuildInputs = [ extra-cmake-modules kdoctools wrapQtAppsHook ];
 
   propagatedBuildInputs = [
     qca-qt5 qjson qtquickcontrols2 qtscript qtwebengine
