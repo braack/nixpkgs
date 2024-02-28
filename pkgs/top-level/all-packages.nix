@@ -39878,6 +39878,8 @@ with pkgs;
 
   cups-dymo = callPackage ../misc/cups/drivers/dymo { };
 
+  cups-epson-tm-t20ii = callPackage ../misc/cups/drivers/epson-tm-t20ii { };
+
   cups-pdf-to-pdf = callPackage ../misc/cups/drivers/cups-pdf-to-pdf { };
 
   cups-toshiba-estudio = callPackage ../misc/cups/drivers/estudio { };
